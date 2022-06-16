@@ -5,8 +5,8 @@ const transport = nodemailer.createTransport({
   host: "smtp.mailtrap.io",
   port: 2525,
   auth: {
-    user: "ca62ed3b3889e3",
-    pass: "121e34cb387d3a",
+    user: "coloque seu user do mailtrap aqui...",
+    pass: "coloque seu pass do mailtrap aqui...",
   },
 });
 
@@ -14,7 +14,7 @@ export class NodemailerMailAdapter implements MailAdapter {
   async sendMail({subject, body}: SendMailData) {
     await transport.sendMail({
       from: "Equipe FeedGet <oi@feedget.com>",
-      to: "Bruno Costa <bruno.p.costa.2003@gmail.com>",
+      to: "'seu nome' <seu_email@gmail.com>",
       subject,
       html: body,
     });
