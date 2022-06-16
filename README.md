@@ -53,5 +53,6 @@ Veja o exemplo de uso do projeto
 - Acesse o terminal e digite ```npm i``` para baixar todas as dependências de acordo com o package.json
 - Após ter instalado as dependências, digite no terminal ```npm run dev``` para executar a aplicação WEB e também abra o SERVER e digite no terminal ```npm run dev```
 
-
+### Aviso ⚠️
+Troque a variável e ambiente 'VITE_API_URL' pela url de acesso de sua API do serevidor.
 
