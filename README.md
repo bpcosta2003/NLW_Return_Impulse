@@ -51,7 +51,7 @@ Veja o exemplo de uso do projeto
 ## Configuração inicial
 - Clone o projeto com ```git clone```
 - Acesse o terminal e digite ```npm i``` para baixar todas as dependências de acordo com o package.json
-- Após ter instalado as dependências, digite no terminal ```npm run dev``` para executar a aplicação
+- Após ter instalado as dependências, digite no terminal ```npm run dev``` para executar a aplicação WEB e também abra o SERVER e digite no terminal ```npm run dev```
 
 
 
