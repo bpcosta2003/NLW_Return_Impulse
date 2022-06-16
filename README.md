@@ -46,6 +46,7 @@ Veja o exemplo de uso do projeto
 ## Funcionalidades ⚙️
 - Screenshot da tela atual ✔️
 - Envio e email com a mensagem e o screenshhot ✔️
+- Tstes unitários com JEST ✔️
 
 ## Configuração inicial
 - Clone o projeto com ```git clone```
